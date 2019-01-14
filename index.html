@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MultiBot</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Staatliches|Raleway');
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-fixed-top navcolor">
+    <div class="container-fluid">
+      <!--Logo-->
+      <div class="navbar-left">
+        <a href="#" class="navbar-brand">
+          <img class="logo" src="img/logo.png">
+        </a> 
+        <ul class="nav navbar-nav">
+          <li>
+            <a class="social discord" target="_blank" href="https://discordapp.com/oauth2/authorize?client_id=519619932728590348&scope=bot&permissions=0" alt="MultiBot_Discord_Logo">
+              <img class="icond" src="img/discord.svg">
+            </a>
+          </li>
+          <li>
+            <a class="social github" target="_blank" href="https://github.com/196713/discord-bot" alt="MultiBot_Github_Logo">
+              <img class="icong" src="img/github.svg">
+            </a>
+          </li>
+        </ul> 
+      </div>
+    </div>
+  </nav>
+
+  <!--JUMBOTRON-->
+
+  <div class="container-fluid divdarken">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="jumbotron container jumbo">
+          <h1>MultiBot</h1>
+          <p>A multipurpose bot for Discord with various features.</p>
+          <div class="inline">
+            <p><a href="#launchcycle" class="btn btn-lg btn-dark">Launch Cycle</a></p>
+            <div class="button2plus">
+              <p><a href="#command-list" class="btn btn-lg btn-dark">Command List</a></p>
+            </div>
+            <div class="button2plus">
+              <p><a href="#demonstration" class="btn btn-lg btn-dark">Demonstration</a></p>
+            </div>
+            <div class="button2plus">
+              <p><a href="https://discordapp.com/oauth2/authorize?client_id=519619932728590348&scope=bot&permissions=0" target="_blank" class="btn btn-lg btn-dark">Invite</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--CAROUSEL-->
+
+  <div class="divback divdarken">
+    <div class="container divdarken">
+      <div class="row">
+        <div class="col-xs-12">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Carousel indicators -->
+          <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>   
+          <!-- Wrapper for carousel items -->
+          <div class="carousel-inner">
+              <div class="item active">
+                  <img src="img/slide1.png" alt="First Slide">
+              </div>
+              <div class="item">
+                  <img src="img/slide2.png" alt="Second Slide">
+              </div>
+              <div class="item">
+                  <img src="img/slide3.png" alt="Third Slide">
+              </div>
+          </div>
+          <!-- Carousel controls -->
+          <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="carousel-control right" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+      </div>
+    </div>
+  </div>
+
+  <!--Launch Cycle-->
+  <div id="launchcycle" class="container-fluid divdarken lcpad">
+    <div class="row col-sm-6 launchhead">
+      <h1>Launch Cycle</h1>
+    </div>
+    <div class="row launchcycle">
+      <div class="col-sm-12 launchl">
+        <img class="ico" src="img/eye.svg">
+        <h1 class="textcol">Look, Listen, and Learn</h1>
+        <p class="textcol">I've learned a lot about the Python language. I've learned how to use the discord.py framework (which this bot uses), and I've also learned how to code certain functionalities that the commands use, such as choosing a random value from a list or array.</p>
+      </div>
+      <div class="col-sm-12 launcha">
+        <img class="ico" src="img/question.svg">
+        <h1>Ask Questions</h1>
+        <p>Some Questions I've asked: How do I grab a random item from an array? How do I organize my commands into separate files? How do I pass in parameters to python functions?</p>
+      </div>
+      <div class="col-sm-12 launchu">
+        <img class="ico" src="img/search.svg">
+        <h1 class="textcol">Understand the Process/Problem</h1>
+        <p class="textcol">To answer my questions, I used a variety of websites, the main ones being StackOverflow and W3Schools. StackOverflow has the answer to nearly every question imaginable, which makes it extremely useful. W3Schools is useful for basic Python fundamentals.</p>
+      </div>
+      <div class="col-sm-12 launchn">
+        <img class="ico" src="img/compass.svg">
+        <h1>Navigate Ideas</h1>
+        <p>Right from the start, I knew I wanted to make a discord bot. I've been a user of discord for a long time now, and I've seen how beneficial bots can be to discord servers. I also have a passion for coding, and I knew I could learn so much more about Python by taking on this task.</p>
+      </div>
+      <div class="col-sm-12 launchc">
+        <img class="ico" src="img/tools.svg">
+        <h1 class="textcol">Create a Prototype</h1>
+        <p class="textcol">I started off by just learning the discord.py framework and how to create a bot account to put online. At this point the bot didn't have any commands.</p>
+      </div>
+      <div class="col-sm-12 launchh">
+        <img class="ico" src="img/check.svg">
+        <h1>Highlight and Fix</h1>
+        <p>It took a lot of edits to finally get the bot to where it is now. Much of the problems I encountered dealt with little syntax errors in my code, but there were a few problems that were much larger, such as incorrectly calling commands on an incorrect discord.py class. When encountering these problems, I had to reference back to the discord.py documentation.</p>
+      </div>
+      <div class="col-sm-12 launchf">
+        <img class="ico" src="img/flag.svg">
+        <h1 class="textcol">Finish</h1>
+        <p class="textcol">After all my work, I finally present to you: MultiBot.</p>
+      </div>
+    </div>
+  </div>
+
+  <!--Commands-->
+  <div id="command-list" class="container-fluid divdarken cmpad">
+    <div class="row">
+      <div class="col-sm-12 cmhead">
+        <h1>Command List</h1>
+      </div>
+    </div>
+    <div class="row buton-row">
+      <a href="#fun">
+        <div class="balign-1 cmcat1">
+          <h1 class="cmtxt-lght">Fun</h1>
+        </div>
+      </a>
+      <a href="#teams">
+        <div class="balign-3 cmcat3">
+          <h1 class="cmtxt-lght">Teams</h1>
+        </div>
+      </a>
+      <a href="#util">
+        <div class="balign-2 cmcat2">
+          <h1 class="cmtxt-drk">Util</h1>
+        </div>
+      </a>
+      <table id="fun" class="table">
+        <thead>
+          <tr>
+            <th class="tabcat-main" colspan="3">Fun</th>
+          </tr>
+          <tr class="orgbar">
+            <th>Command</th>
+            <th>Description</th>
+            <th>Usage</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="row-alt-1">
+            <td>!8ball</td>
+            <td>Ask the 8ball a yes/no question.</td>
+            <td>!8ball [question]</td>
+          </tr>
+          <tr class="row-alt-2">
+            <td>!dice</td>
+            <td>Roll a 6-sided die.</td>
+            <td>!dice</td>
+          </tr>
+          <tr class="row-alt-1">
+            <td>!choose</td>
+            <td>Have the bot choose between 2 or more options</td>
+            <td>!choose [option1] | [option2]</td>
+          </tr>
+          <tr class="row-alt-2">
+            <td>!rps</td>
+            <td>Play a game of rock, papers, and scissors against the bot.</td>
+            <td>!rps [choice]</td>
+          </tr>
+        </tbody>
+      </table>
+      <table id="util" class="table">
+        <thead>
+          <tr>
+            <th class="tabcat-main" colspan="3">Util</th>
+          </tr>
+          <tr class="orgbar">
+            <th>Command</th>
+            <th>Description</th>
+            <th>Usage</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="row-alt-1">
+            <td>!ping</td>
+            <td>pong!</td>
+            <td>!ping</td>
+          </tr>
+          <tr class="row-alt-2">
+            <td>!say</td>
+            <td>Have the bot repeat whatever you say.</td>
+            <td>!say [statement]</td>
+          </tr>
+          <tr class="row-alt-1">
+            <td>!sayd</td>
+            <td>Have the bot repeat whatever you say, but also delete your message.</td>
+            <td>!sayd [statement]</td>
+          </tr>
+          <tr class="row-alt-2">
+            <td>!clear</td>
+            <td>Delete a specified amount of messages from the channel.</td>
+            <td>!clear [# of messages to delete]</td>
+          </tr>
+          <tr class="row-alt-1">
+            <td>!avatar</td>
+            <td>Get the avatar of a user.</td>
+            <td>!avatar [user]</td>
+          </tr>
+          <tr class="row-alt-2">
+            <td>!changenick</td>
+            <td>Change your nickname.</td>
+            <td>!changenick [nickname you want]</td>
+          </tr>
+        </tbody>
+      </table>
+      <table id="teams" class="table">
+        <thead>
+          <tr>
+            <th class="tabcat-main" colspan="3">Teams</th>
+          </tr>
+          <tr class="orgbar">
+            <th>Command</th>
+            <th>Description</th>
+            <th>Usage</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="row-alt-1">
+            <td>!teams</td>
+            <td>Create random teams given a format (ex. 2v2) and a list of players.</td>
+            <td>!teams [format] [list of players]</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <!--Video-->
+  <div id="demonstration" class="container-fluid divdarken exvid">
+    <div class="row col-sm-6 vidhead">
+      <h1>Demonstration</h1>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 vidback">
+        <video class="vidresize" controls>
+          <source src="vid/thevid_01.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

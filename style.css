@@ -1,0 +1,257 @@
+html{
+	scroll-behavior:smooth;
+}
+body{
+	background:#303030;
+}
+
+/*Navbar*/
+.navcolor{
+	background-color:#0f0f0f;
+}
+.logo{
+	margin-top:-12px;
+	padding-right:5px;
+	height:50px;
+}
+.social{
+	width:75px;
+    height:50px;
+    position:relative;
+}
+.discord{
+	float:right;
+	background:#7289da;
+}
+.github{
+	float:right;
+	background:#24292e;
+}
+.icond{
+	margin-top:-3px;
+	margin-left:1px;
+	height:30px;
+}
+.icong{
+	margin-top:-7px;
+	margin-left:3px;
+	height:40px;
+}
+
+/*Jumbotron*/
+.jumbo{
+	margin-top:70px;
+}
+.jumbotron h1{
+	font-family: 'Staatliches', sans-serif;
+}
+.jumbotron p{
+	font-family: 'Raleway', sans-serif;
+}
+.inline{
+	display:inline-flex;
+}
+.btn-dark{
+	background:#303030;
+	color:#e6e6e6;
+}
+.btn-dark:hover{
+	color:#FF8000;
+}
+.button2plus{
+	padding-left:20px;
+}
+
+/*Carousel*/
+.carousel{
+    background: #2f4357;
+    margin-top: 20px;
+}
+.carousel .item{
+    min-height: 280px;
+}
+.carousel .item img{
+    margin: 0 auto;
+}
+.carousel-inner img{
+	width:100%;
+}
+.divback{
+	width:100%;
+}
+.center{
+	margin:auto;
+}
+
+/*Launch Cycle*/
+.lcpad{
+	padding-top:50px;
+}
+.launchhead{
+	background:#e6e6e6;
+	height:75px;
+}
+.launchhead h1{
+	margin-top:5px;
+	font-family: 'Staatliches', sans-serif;
+	font-size: 65px;
+}
+.launchl{
+	background:#1a1a1a;
+	height:220px;
+}
+.launcha{
+	background:#e6e6e6;
+	height:220px;
+}
+.launchu{
+	background:#1a1a1a;
+	height:220px;
+}
+.launchn{
+	background:#e6e6e6;
+	height:220px;
+}
+.launchc{
+	background:#1a1a1a;
+	height:220px;
+}
+.launchh{
+	background:#e6e6e6;
+	height:220px;
+}
+.launchf{
+	background:#1a1a1a;
+	height:220px;
+}
+.launchcycle h1{
+	padding-left:250px;
+	font-family: 'Staatliches', sans-serif;
+	font-size: 65px;
+}
+.launchcycle p{
+	font-family: 'Raleway', sans-serif;
+	padding-left:250px;
+	font-size: 20px;
+}
+.textcol{
+	color:#e6e6e6;
+}
+.ico{
+	float:left;
+	padding-left:50px;
+	width:auto;
+	height:130px;
+	margin-top:50px;
+}
+
+/*Command List*/
+.cmpad{
+	padding-top:50px;
+}
+.cmhead{
+	background:#e6e6e6;
+	height:75px;
+}
+.cmhead h1{
+	margin-top:5px;
+	font-family: 'Staatliches', sans-serif;
+	font-size: 65px;
+	text-align:center;
+}
+.buton-row{
+	padding-top:25px;
+}
+.balign-1{
+	width:25%;
+	float:left;
+}
+.balign-2{
+	width:25%;
+	margin:auto;
+}
+.balign-3{
+	width:25%;
+	float:right;
+}
+.cmcat1{
+	background:#1a1a1a;
+	height:75px;
+	text-align:center;
+}
+.cmcat2{
+	background:#e6e6e6;
+	height:75px;
+	text-align:center;
+}
+.cmcat3{
+	background:#1a1a1a;
+	height:75px;
+	text-align:center;
+}
+.cmtxt-lght{
+	color:#e6e6e6;
+	font-family: 'Staatliches', sans-serif;
+	font-size: 65px;
+	margin-top:5px;
+}
+.cmtxt-lght:hover, .cmtxt-drk:hover{
+	color:#FF8000;
+}
+.cmtxt-drk{
+	color:#303030;
+	font-family: 'Staatliches', sans-serif;
+	font-size: 65px;
+	margin-top:5px;
+}
+
+/*Commands Table*/
+.tabcat-main{
+	color:#ff8000;
+	font-family: 'Staatliches', sans-serif;
+	font-size: 65px;
+	text-align:center;
+}
+.orgbar{
+	font-family: 'Staatliches', sans-serif;
+	font-size: 25px;
+	font-weight:bold;
+	background:#e6e6e6;
+}
+.row-alt-1{
+	background:#1a1a1a;
+}
+.row-alt-2{
+	background:#282828;
+}
+tbody{
+	font-family: 'Raleway', sans-serif;
+	font-size:20px;
+	color:#ffffff;
+}
+
+/*Video*/
+.exvid{
+	padding-top:50px;
+}
+.vidhead{
+	background:#1a1a1a;
+	height:75px;
+}
+.vidhead h1{
+	margin-top:5px;
+	font-family: 'Staatliches', sans-serif;
+	font-size: 65px;
+	color:#e6e6e6;
+}
+.vidback{
+	background:#e6e6e6;
+	height:680px;
+}
+.vidresize{
+	width:90%;
+	position: relative;
+  	left:50%;
+  	transform: translateX(-50%);
+  	margin-top:63px;
+}
